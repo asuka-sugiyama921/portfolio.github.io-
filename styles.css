@@ -18,12 +18,12 @@ body{
   width: 100vw;
   height: 800px;
   animation-name: header;
-	-webkit-animation-name: header;
-	animation-duration: 20s;
-	-webkit-animation-duration: 20s;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-	opacity: 0;
+  -webkit-animation-name: header;
+  animation-duration: 20s;
+  -webkit-animation-duration: 20s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0;
 }
 
 .top_header .img1{
@@ -32,80 +32,80 @@ body{
 
 .top_header .img2{
   animation-delay:5s;
-	-webkit-animation-delay:5s;
+  -webkit-animation-delay:5s;
   position: absolute;
   top: 0%;
 }
 
 .top_header .img3{
   animation-delay:10s;
-	-webkit-animation-delay:10s;
+  -webkit-animation-delay:10s;
   position: absolute;
   top: 0%;
 }
 
 .top_header .img4{
   animation-delay:15s;
-	-webkit-animation-delay:15s;
+  -webkit-animation-delay:15s;
   position: absolute;
   top: 0%;
 }
 
 @keyframes header {
-	0% {
-		opacity: 0;
-	}
-	
-	6.25% {
-		opacity: 1;
-	}
-
-	12.5% {
-		opacity: 1;
+  0% {
+    opacity: 0;
   }
   
-	25% {
-		opacity: 0;
-	}
-}
+  6.25% {
+    opacity: 1;
+  }
 
-@-webkit-keyframes header {
-	0% {
-		opacity: 0;
-	}
-	
-	6.25% {
-		opacity: 1;
-	}
-
-	12.5% {
+  12.5% {
     opacity: 1;
   }
   
-	25% {
-		opacity: 0;
-	}
+  25% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes header {
+  0% {
+    opacity: 0;
+  }
+  
+  6.25% {
+    opacity: 1;
+  }
+
+  12.5% {
+    opacity: 1;
+  }
+  
+  25% {
+    opacity: 0;
+  }
 }
 
 .about_header,
 .menu_header,
 .gallery_header,
 .faq_header{
-  background: url(../img/header_about.jpg) center center / cover no-repeat;
+  background: url(header_about.jpg) center center / cover no-repeat;
   position: relative;
   height: 400px;
 }
 
 .menu_header{
-  background-image: url(../img/header_menu.jpg);
+  background-image: url(header_menu.jpg);
 }
 
 .gallery_header{
-  background-image: url(../img/header_gallery.jpg);
+  background-image: url(header_gallery.jpg);
 }
 
 .faq_header{
-  background-image: url(../img/header_faq.jpg);
+  background-image: url(header_faq.jpg);
 }
 
 .fade-in{
@@ -469,30 +469,30 @@ header .container{
 
 .photo_box li{
   position: relative;
-  overflow:		hidden;
+  overflow:   hidden;
   margin: 20px;
 }
 
 .photo_box .caption {
-	font-size:		130%;
-	text-align: 		center;
-	color:			#fff;
+  font-size:    130%;
+  text-align:     center;
+  color:      #fff;
 }
 .photo_box .mask {
-	width:			100%;
-	height:			100%;
-  position:		absolute;
+  width:      100%;
+  height:     100%;
+  position:   absolute;
   vertical-align: middle;
-	top:			0;
-	left:			0;
-	opacity:		0;	/* マスクを表示しない */
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.6s ease;
-	transition:		all 0.6s ease;
+  top:      0;
+  left:     0;
+  opacity:    0;  /* マスクを表示しない */
+  background-color: rgba(0,0,0,0.4);
+  -webkit-transition: all 0.6s ease;
+  transition:   all 0.6s ease;
 }
 .photo_box li:hover .mask {
-	opacity:		1;	/* マスクを表示する */
-	padding-top:		80px;	/* ホバーで下にずらす */
+  opacity:    1;  /* マスクを表示する */
+  padding-top:    80px; /* ホバーで下にずらす */
 }
 
 .style_btn{
